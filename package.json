@@ -1,0 +1,15 @@
+{
+  "name": "iscrawler",
+  "version": "0.1.1",
+  "description": "Takes a user agent and returns true if a crawler, else false.",
+  "repository": "git://github.com/breck7/iscrawler",
+  "main": "iscrawler.js",
+  "keywords": [
+    "crawler",
+    "bot",
+    "useragent",
+    "express"
+  ],
+  "license": "MIT",
+  "author": "Breck Yunits"
+}
