@@ -8,3 +8,5 @@ console.log(isCrawler('crawler'))
 
 // true
 console.log(isCrawler('bot'))
+
+console.log(isCrawler(undefined))

@@ -1,6 +1,6 @@
 {
   "name": "iscrawler",
-  "version": "0.1.1",
+  "version": "0.1.11",
   "description": "Takes a user agent and returns true if a crawler, else false.",
   "repository": "git://github.com/breck7/iscrawler",
   "main": "iscrawler.js",

@@ -6,5 +6,7 @@ var crawlers = /alexa|bot|crawl(er|ing)|facebookexternalhit|feedburner|nagios|po
  * @return {bool}. Is this a crawler? true/false
  */
 module.exports = function (userAgentString) {
- return userAgentString.match(crawlers) !== null
+  if (typeof userAgentString !== 'string')
+    return null
+  return userAgentString.match(crawlers) !== null
 }
